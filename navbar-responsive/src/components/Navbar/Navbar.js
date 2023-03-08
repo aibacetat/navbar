@@ -19,6 +19,8 @@ import {
   FaBriefcase,
   FaGlasses,
   FaCartPlus,
+  FaProductHunt,
+  FaServicestack,
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
@@ -43,7 +45,7 @@ const Navbar = () => {
             <MenuItem>
               <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <div>
-                  <FaHome />
+                  <FaProductHunt />
                   PRODUCTOS
                 </div>
               </MenuItemLink>
@@ -51,7 +53,7 @@ const Navbar = () => {
             <MenuItem>
               <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <div>
-                  <FaUserAlt />
+                  <FaServicestack />
                   SERVICIOS
                 </div>
               </MenuItemLink>
