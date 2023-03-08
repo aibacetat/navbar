@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import CartWidget from "./CartWidget";
+
 import {
   Container,
   LogoContainer,
@@ -16,6 +18,7 @@ import {
   FaUserAlt,
   FaBriefcase,
   FaGlasses,
+  FaCartPlus,
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
@@ -41,7 +44,7 @@ const Navbar = () => {
               <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <div>
                   <FaHome />
-                  SITIO
+                  PRODUCTOS
                 </div>
               </MenuItemLink>
             </MenuItem>
@@ -49,7 +52,7 @@ const Navbar = () => {
               <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
                 <div>
                   <FaUserAlt />
-                  ACERCA DE MI
+                  SERVICIOS
                 </div>
               </MenuItemLink>
             </MenuItem>
@@ -66,6 +69,14 @@ const Navbar = () => {
                 <div>
                   <FaGlasses />
                   CONTACTAME
+                </div>
+              </MenuItemLink>
+            </MenuItem>
+            <MenuItem>
+              <MenuItemLink onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                <div>
+                  <FaCartPlus />CARRITO
+                  <CartWidget />
                 </div>
               </MenuItemLink>
             </MenuItem>
