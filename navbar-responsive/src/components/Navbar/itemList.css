@@ -25,7 +25,7 @@
   }
   
   .main-container {
-    background-color: #ec645b;
+    background-color: #5166db;
     width: 500px;
     height: min-content;
     border-radius: 5px;
@@ -38,8 +38,8 @@
   }
   
   .add-item-box {
-    background: #fbc1bb;
-    color: #ec645b;
+    background: #d7dbf5;
+    color: #4d6fcf;
     margin-top: 1em;
     margin-bottom: 1em;
     display: flex;
@@ -56,13 +56,13 @@
     box-sizing: border-box;
     border: none;
     background: transparent;
-    color: #ec645b;
+    color: #9590ee;
     width: 100%;
     height: 30px;
   }
   
   input::placeholder {
-    color: #ec645b;
+    color: #7776e2;
   }
   input:focus {
     outline: 0;
@@ -78,7 +78,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 0 20px 0;
-    border-bottom: 1px #fbc1bb solid;
+    border-bottom: 1px #a5aedb solid;
   }
   
   .item-name {
@@ -98,7 +98,7 @@
   
   .remove-button {
     color: white;
-    background-color: red;
+    background-color: rgb(102, 55, 231);
   }
   
   .total {
@@ -109,11 +109,11 @@
   .quantity {
     display: flex;
     align-items: center;
-    border: 1px solid #ec645b;
+    border: 1px solid #4723e6;
     background: white;
     border-radius: 50px;
     font-size: 12px;
-    color: #ec645b;
+    color: #441eec;
     min-width: 70px;
     justify-content: space-between;
   }
@@ -122,7 +122,7 @@
     background: transparent;
     border: none;
     margin: 3px;
-    color: #ec645b;
+    color: #5038ec;
   }
   button:focus {
     outline: 0;

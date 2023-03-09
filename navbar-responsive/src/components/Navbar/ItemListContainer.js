@@ -6,9 +6,9 @@ import { faChevronRight, faChevronLeft, faCircle, faCheckCircle, faPlus } from '
 const App = () => {
 
 	const [items, setItems] = useState([
-		{ itemName: 'Item 1', quantity: 1, isSelected: false },
-		{ itemName: 'Item 2', quantity: 3, isSelected: true },
-		{ itemName: 'Item 3', quantity: 2, isSelected: false },
+		{ itemName: 'Camisa', quantity: 1, isSelected: false },
+		{ itemName: 'Pantalon', quantity: 3, isSelected: true },
+		{ itemName: 'Zapato', quantity: 2, isSelected: false },
 	]);
 
 	const [inputValue, setInputValue] = useState('');
