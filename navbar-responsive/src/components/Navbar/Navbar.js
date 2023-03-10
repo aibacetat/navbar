@@ -14,8 +14,6 @@ import {
   FaBattleNet,
   FaBars,
   FaTimes,
-  FaHome,
-  FaUserAlt,
   FaBriefcase,
   FaGlasses,
   FaCartPlus,
